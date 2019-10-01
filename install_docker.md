@@ -144,6 +144,7 @@ For more examples and ideas, visit:
 
 #### So what does docker run hello-world do?
 
-docker run hello-world does exactly what it sounds like. It runs an image named "hello-world."
+docker run hello-world does exactly what it sounds like.
+It runs an image named "hello-world."
 Docker looks for this image on our local system. When it can’t find the image, Docker downloads it from Docker Hub for us.
 Hello-world displays a message telling us everything’s working. Then it spells out the process for us before recommending some additional steps.
