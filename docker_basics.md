@@ -10,13 +10,13 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 4c7d3d414cc8        hello-world         "/hello"            45 minutes ago      Exited (0) 45 minutes ago                       tender_goldberg
 syamj@test-ubuntu:~$
 ```
-CONTAINER ID - A unique ID assigned to a container.
-IMAGE - Name of the image.
-COMMAND - Command run while executing the container.
-CREATED - Create time.
-STATUS - Status of the Container.
-PORTS - If any port is exposed.
-NAMES - Name given to a container.
+- CONTAINER ID - A unique ID assigned to a container.
+- IMAGE - Name of the image.
+- COMMAND - Command run while executing the container.
+- CREATED - Create time.
+- STATUS - Status of the Container.
+- PORTS - If any port is exposed.
+- NAMES - Name given to a container.
 
 ```
 docker ps
