@@ -37,6 +37,7 @@ Once completed, let's start docker and make sure it's running.
 
 ```
 sudo systemctl start docker
+sudo systemctl enable docker
 sudo systemctl status docker
 ```
 ```
