@@ -49,12 +49,31 @@ syamj@test-ubuntu:~ $ sudo systemctl status docker
 ```
 To check the version of the Docker.
 ```
-docker --version
+docker version
 ```
+
+And the output should should look like this.
 ```
-syamj@test-ubuntu:~ $ docker --version
-Docker version 18.09.7, build 2d0083d
-syamj@test-ubuntu:~$
+syamj@test-ubuntu:~$ docker version
+Client:
+ Version:           18.09.7
+ API version:       1.39
+ Go version:        go1.10.1
+ Git commit:        2d0083d
+ Built:             Fri Aug 16 14:20:06 2019
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.09.7
+  API version:      1.39 (minimum version 1.12)
+  Go version:       go1.10.1
+  Git commit:       2d0083d
+  Built:            Wed Aug 14 19:41:23 2019
+  OS/Arch:          linux/amd64
+  Experimental:     false
+
 ```
 
 Yay! Docker is started and running in our Ubuntu Machine :) 
