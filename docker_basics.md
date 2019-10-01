@@ -64,7 +64,7 @@ Example :-
 - ubuntu:latest
 
 ```
-docker pull
+docker pull <image_name:tag>
 ```
 Docker pull is used to download a specific image to our local system.
 > Note : This command will only download. To run the container , docker run should be used.
