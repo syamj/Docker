@@ -47,6 +47,7 @@ docker --version
 ```
 >syamj@test-ubuntu:~ $ docker --version
 Docker version 18.09.7, build 2d0083d
+
 syamj@test-ubuntu:~$
 
 
