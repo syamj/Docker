@@ -9,7 +9,7 @@ To install Docker, run the below command.
 sudo apt-get install docker.io
 ```
 
-> syamj@test-ubuntu:~$ sudo apt-get install docker.io
+> syamj@test-ubuntu:~ $ sudo apt-get install docker.io
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done
@@ -35,7 +35,7 @@ syamj@test-ubuntu:~$
 sudo systemctl start docker
 sudo systemctl status docker
 ```
->syamj@test-ubuntu:~$ sudo systemctl status docker
+>syamj@test-ubuntu:~ $ sudo systemctl status docker
 ● docker.service - Docker Application Container Engine
    Loaded: loaded (/lib/systemd/system/docker.service; disabled; vendor preset: enabled)
    Active: active (running) since Tue 2019-10-01 11:14:47 UTC; 5min ago
