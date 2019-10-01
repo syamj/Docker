@@ -40,7 +40,7 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 hello-world         latest              fce289e99eb9        9 months ago        1.84kB
 syamj@test-ubuntu:~$
 ```
-Even after the container is stopped the image remains in the system. So if we need to run the container again, it will not download the image from the central repository.
+Even after the container is stopped the image remains in the system. So if we need to run the container again, there is no need to download the image from the central repository.
 
 There are two type of Docker Images.
 
