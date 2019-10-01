@@ -7,5 +7,6 @@ The keywords of Docker are **develop, ship** and **run** anywhere. The whole ide
 ## Docker vs VM
 
 Docker virtualizes the Operating System while virtualization of hardware is done while creating a VM. Unlike the VMs which can communicate with the hardware of the host, Docker containers run in an isolated environment on top of the host's OS.
+Compared to virtual machines, containers use less memory and less CPU.
 
 
