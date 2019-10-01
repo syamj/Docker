@@ -46,9 +46,8 @@ To check the version of the Docker.
 docker --version
 ```
 >syamj@test-ubuntu:~ $ docker --version
-Docker version 18.09.7, build 2d0083d
-
-syamj@test-ubuntu:~$
+>Docker version 18.09.7, build 2d0083d
+>syamj@test-ubuntu:~$
 
 
 Yay! Docker is started and running in our Ubuntu Machine :) 
