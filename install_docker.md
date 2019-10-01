@@ -9,7 +9,9 @@ To install Docker, run the below command.
 sudo apt-get install docker.io
 ```
 
-> syamj@test-ubuntu:~ $ sudo apt-get install docker.io
+You should see something like this. Press 'Y' to confirm the installation.
+```
+syamj@test-ubuntu:~ $ sudo apt-get install docker.io
 Reading package lists... Done
 Building dependency tree
 Reading state information... Done
@@ -30,24 +32,28 @@ Processing triggers for systemd (237-3ubuntu10.29) ...
 Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for ureadahead (0.100.0-21) ...
 syamj@test-ubuntu:~$
+```
+Once completed, let's start docker and make sure it's running.
 
 ```
 sudo systemctl start docker
 sudo systemctl status docker
 ```
->syamj@test-ubuntu:~ $ sudo systemctl status docker
+```
+syamj@test-ubuntu:~ $ sudo systemctl status docker
 ● docker.service - Docker Application Container Engine
    Loaded: loaded (/lib/systemd/system/docker.service; disabled; vendor preset: enabled)
    Active: active (running) since Tue 2019-10-01 11:14:47 UTC; 5min ago
      Docs: https://docs.docker.com
-
+```
 To check the version of the Docker.
 ```
 docker --version
 ```
->syamj@test-ubuntu:~ $ docker --version
->Docker version 18.09.7, build 2d0083d
->syamj@test-ubuntu:~$
-
+```
+syamj@test-ubuntu:~ $ docker --version
+Docker version 18.09.7, build 2d0083d
+syamj@test-ubuntu:~$
+```
 
 Yay! Docker is started and running in our Ubuntu Machine :) 
