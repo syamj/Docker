@@ -106,3 +106,29 @@ syamj@test-ubuntu:~$
 
 ```
 Now the container hello-world is not listed when I run the command docker ps -a
+
+
+### docker image rm <Image_ID>
+
+This command will remove the existing image from our machine.
+
+```
+syamj@test-ubuntu:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              18.10               9dc19675e327        2 months ago        67.3MB
+hello-world         latest              fce289e99eb9        9 months ago        1.84kB
+syamj@test-ubuntu:~$
+syamj@test-ubuntu:~$
+syamj@test-ubuntu:~$ docker image rm fce289e99eb9
+Untagged: hello-world:latest
+Untagged: hello-world@sha256:b8ba256769a0ac28dd126d584e0a2011cd2877f3f76e093a7ae560f2a5301c00
+Deleted: sha256:fce289e99eb9bca977dae136fbe2a82b6b7d4c372474c9235adc1741675f587e
+Deleted: sha256:af0b15c8625bb1938f1d7b17081031f649fd14e6b233688eea3c5483994a66a3
+syamj@test-ubuntu:~$
+syamj@test-ubuntu:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+ubuntu              18.10               9dc19675e327        2 months ago        67.3MB
+syamj@test-ubuntu:~$
+```
+
+
