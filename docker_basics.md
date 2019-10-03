@@ -1,6 +1,7 @@
 ## Docker Basics
 
-	docker ps -a
+### docker ps -a
+
  This commands lists the containers on our system
 
 Here, you can see one entry(hello-world)
@@ -18,9 +19,9 @@ syamj@test-ubuntu:~$
 - PORTS - If any port is exposed.
 - NAMES - Name given to a container.
 
-```
-docker ps
-```
+
+### docker ps
+
 
 ```
 syamj@test-ubuntu:~$ docker ps
@@ -29,9 +30,9 @@ syamj@test-ubuntu:~$
 
 ```
 docker ps command will only list the containers which are running currently.
-```
-docker images
-```
+
+### docker images
+
 This command lists all the images in the system.
 In our case, we have only one image - hello-world.
 ```
@@ -63,9 +64,9 @@ Example :-
 - ubuntu:16.10
 - ubuntu:latest
 
-```
-docker pull <image_name:tag>
-```
+
+### docker pull <image_name:tag>
+
 Docker pull is used to download a specific image to our local system.
 > Note : This command will only download. To run the container , docker run should be used.
 ```
@@ -85,9 +86,9 @@ hello-world         latest              fce289e99eb9        9 months ago        
 syamj@test-ubuntu:~$
 
 ```
-```
-docker rm <container_id>
-```
+
+### docker rm <container_id>
+
 docker rm is used to delete an container from the system.
 Now I'm going to delete the container hello-world from my system
 ```
